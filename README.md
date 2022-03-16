@@ -10,6 +10,7 @@
 ## Built With
 
 - HTML, CSS, JS
+- Bootstrap, SCSS, React
 
 
 ## Live Demo
@@ -21,22 +22,28 @@
 
 In the project directory, you can run:
 
-### `npm start`
+### Run the app in the development mode
 
-Runs the app in the development mode.\
+```
+$ npm install
+$ npm start
+````
+
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+### Launch the test runner in the interactive watch mode
 
-Launches the test runner in the interactive watch mode.\
+`npm test`
+
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Build the app for production to the `build` folder
 
-Builds the app for production to the `build` folder.\
+`npm run build`
+
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.\
@@ -73,11 +80,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-
-## Acknowledgments
-
-- Hat tip to all developers.
 
 
 ## 📝 License
