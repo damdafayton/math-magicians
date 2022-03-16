@@ -1,9 +1,3 @@
-:root {
-  --bs-light-rgb: 224, 224, 224;
-  --bs-dark-rgb: 133, 134, 147;
-  --bs-warning-rgb: 251, 146, 69;
-}
-
 .App {
   text-align: center;
 }
