@@ -7,12 +7,11 @@ export default class Calculator extends React.Component {
     super(props);
     this.state = {
       calculateObj: {},
-      total: 0,
+      total: '0',
     };
   }
 
   handleClick(e) {
-    console.log('>> ', this, e.target.firstChild.data);
     let { calculateObj } = this.state;
     const button = e.target.firstChild.data;
     calculateObj = calculate(calculateObj, button);
@@ -20,7 +19,6 @@ export default class Calculator extends React.Component {
       ? calculateObj.total + (calculateObj.operation || '') + (calculateObj.next || '')
       : (calculateObj.next || 0);
     this.setState({ total, calculateObj });
-    console.log(calculateObj);
   }
 
   render() {
