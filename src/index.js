@@ -5,9 +5,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const githubBasename = '/math-magicians/build/';
+
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={githubBasename}>
       <App />
     </BrowserRouter>
   </React.StrictMode>,
