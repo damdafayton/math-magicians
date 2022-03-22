@@ -6,6 +6,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const githubBasename = `/${process.env.PUBLIC_URL}`;
+console.log('route base = ', githubBasename);
 
 ReactDOM.render(
   <React.StrictMode>
