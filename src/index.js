@@ -5,7 +5,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const githubBasename = '/math-magicians/build/';
+const githubBasename = `/${process.env.PUBLIC_URL}`;
 
 ReactDOM.render(
   <React.StrictMode>
