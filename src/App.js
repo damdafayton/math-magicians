@@ -16,9 +16,9 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App container-lg d-flex flex-column align-items-center min-vh-100">
+      <div className="App container-lg d-flex flex-column align-items-center min-vh-100 px-3">
         <NavBar />
-        <main className="d-flex flex-grow-1 w-100">
+        <main className="d-flex justify-content-start w-100">
           <Routes>
             <Route path="/calculator" element={<Calculator />} />
             <Route path="/quote" element={<Quote />} />

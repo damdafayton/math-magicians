@@ -18,11 +18,11 @@ export default function Calculator() {
   }
 
   return (
-    <div className="d-flex gap-2 w-100">
-      <p className="flex-grow-1">
+    <div className="row flex-sm-grow-1">
+      <p className="col-sm-4 text-start">
         Let&apos;s do some math!
       </p>
-      <section className="mx-3">
+      <section className="col-sm-8 px-4">
         <div className="row text-white text-end">
           <Cell myClass="cell bg-dark fs-3">{total}</Cell>
         </div>
