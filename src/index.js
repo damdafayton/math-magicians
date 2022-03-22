@@ -4,10 +4,12 @@ import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { prettyDOM } from '@testing-library/react';
+const githubBasename = 'math-magicians/build/'
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={githubBasename}>
       <App />
     </BrowserRouter>
   </React.StrictMode>,
