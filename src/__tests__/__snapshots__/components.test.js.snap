@@ -17,6 +17,7 @@ exports[`renders Calculator correctly 1`] = `
     >
       <div
         className="cell bg-dark fs-3"
+        id="calculate-result"
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
@@ -29,6 +30,7 @@ exports[`renders Calculator correctly 1`] = `
     >
       <div
         className="cell bg-light"
+        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
@@ -37,6 +39,7 @@ exports[`renders Calculator correctly 1`] = `
       </div>
       <div
         className="cell bg-light"
+        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
@@ -45,6 +48,7 @@ exports[`renders Calculator correctly 1`] = `
       </div>
       <div
         className="cell bg-light"
+        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
@@ -53,6 +57,7 @@ exports[`renders Calculator correctly 1`] = `
       </div>
       <div
         className="cell bg-warning"
+        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
@@ -65,6 +70,7 @@ exports[`renders Calculator correctly 1`] = `
     >
       <div
         className="cell bg-light"
+        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
@@ -73,6 +79,7 @@ exports[`renders Calculator correctly 1`] = `
       </div>
       <div
         className="cell bg-light"
+        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
@@ -81,6 +88,7 @@ exports[`renders Calculator correctly 1`] = `
       </div>
       <div
         className="cell bg-light"
+        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
@@ -89,6 +97,7 @@ exports[`renders Calculator correctly 1`] = `
       </div>
       <div
         className="cell bg-warning"
+        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
@@ -101,6 +110,7 @@ exports[`renders Calculator correctly 1`] = `
     >
       <div
         className="cell bg-light"
+        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
@@ -109,6 +119,7 @@ exports[`renders Calculator correctly 1`] = `
       </div>
       <div
         className="cell bg-light"
+        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
@@ -117,6 +128,7 @@ exports[`renders Calculator correctly 1`] = `
       </div>
       <div
         className="cell bg-light"
+        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
@@ -125,6 +137,7 @@ exports[`renders Calculator correctly 1`] = `
       </div>
       <div
         className="cell bg-warning"
+        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
@@ -137,6 +150,7 @@ exports[`renders Calculator correctly 1`] = `
     >
       <div
         className="cell bg-light"
+        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
@@ -145,6 +159,7 @@ exports[`renders Calculator correctly 1`] = `
       </div>
       <div
         className="cell bg-light"
+        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
@@ -153,6 +168,7 @@ exports[`renders Calculator correctly 1`] = `
       </div>
       <div
         className="cell bg-light"
+        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
@@ -161,6 +177,7 @@ exports[`renders Calculator correctly 1`] = `
       </div>
       <div
         className="cell bg-warning"
+        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
@@ -173,6 +190,7 @@ exports[`renders Calculator correctly 1`] = `
     >
       <div
         className="cell bg-light col-6"
+        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
@@ -181,6 +199,7 @@ exports[`renders Calculator correctly 1`] = `
       </div>
       <div
         className="cell bg-light col-3"
+        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
@@ -189,6 +208,7 @@ exports[`renders Calculator correctly 1`] = `
       </div>
       <div
         className="cell bg-warning col-3"
+        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
@@ -203,6 +223,7 @@ exports[`renders Calculator correctly 1`] = `
 exports[`renders Cell correctly 1`] = `
 <div
   className="text-start"
+  id=""
   onClick={[Function]}
   onKeyDown={[Function]}
   role="presentation"
@@ -242,6 +263,7 @@ exports[`renders NavBar correctly 1`] = `
     className="list-group list-group-horizontal"
   >
     <li
+      aria-label="Home"
       style={
         Object {
           "listStyle": "none",
@@ -252,6 +274,7 @@ exports[`renders NavBar correctly 1`] = `
       <NavLink />
     </li>
     <li
+      aria-label="Calculator"
       style={
         Object {
           "listStyle": "none",
@@ -262,6 +285,7 @@ exports[`renders NavBar correctly 1`] = `
       <NavLink />
     </li>
     <li
+      aria-label="Quote"
       style={
         Object {
           "listStyle": "none",

@@ -8,18 +8,22 @@ export default class Cell extends React.Component {
   }
 
   render() {
-    const { myClass, children, handleClick } = this.props;
-    return <div role="presentation" onKeyDown={handleClick} onClick={handleClick} className={myClass}>{children}</div>;
+    const {
+      myClass, children, handleClick, id,
+    } = this.props;
+    return <div id={id} role="presentation" onKeyDown={handleClick} onClick={handleClick} className={myClass}>{children}</div>;
   }
 }
 
 Cell.defaultProps = {
+  id: '',
   myClass: '',
   children: '',
   handleClick: () => { },
 };
 
 Cell.propTypes = {
+  id: PropTypes.string,
   myClass: PropTypes.string,
   children: PropTypes.string,
   handleClick: PropTypes.func,
