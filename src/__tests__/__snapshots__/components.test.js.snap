@@ -1,0 +1,296 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Calculator correctly 1`] = `
+<div
+  className="row flex-sm-grow-1"
+>
+  <p
+    className="col-sm-4 text-start"
+  >
+    Let's do some math!
+  </p>
+  <section
+    className="col-sm-8 px-4"
+  >
+    <div
+      className="row text-white text-end"
+    >
+      <div
+        className="cell bg-dark fs-3"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="presentation"
+      >
+        0
+      </div>
+    </div>
+    <div
+      className="row row-cols-4"
+    >
+      <div
+        className="cell bg-light"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="presentation"
+      >
+        AC
+      </div>
+      <div
+        className="cell bg-light"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="presentation"
+      >
+        +/-
+      </div>
+      <div
+        className="cell bg-light"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="presentation"
+      >
+        %
+      </div>
+      <div
+        className="cell bg-warning"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="presentation"
+      >
+        ÷
+      </div>
+    </div>
+    <div
+      className="row row-cols-4"
+    >
+      <div
+        className="cell bg-light"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="presentation"
+      >
+        7
+      </div>
+      <div
+        className="cell bg-light"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="presentation"
+      >
+        8
+      </div>
+      <div
+        className="cell bg-light"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="presentation"
+      >
+        9
+      </div>
+      <div
+        className="cell bg-warning"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="presentation"
+      >
+        x
+      </div>
+    </div>
+    <div
+      className="row row-cols-4"
+    >
+      <div
+        className="cell bg-light"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="presentation"
+      >
+        4
+      </div>
+      <div
+        className="cell bg-light"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="presentation"
+      >
+        5
+      </div>
+      <div
+        className="cell bg-light"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="presentation"
+      >
+        6
+      </div>
+      <div
+        className="cell bg-warning"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="presentation"
+      >
+        -
+      </div>
+    </div>
+    <div
+      className="row row-cols-4"
+    >
+      <div
+        className="cell bg-light"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="presentation"
+      >
+        1
+      </div>
+      <div
+        className="cell bg-light"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="presentation"
+      >
+        2
+      </div>
+      <div
+        className="cell bg-light"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="presentation"
+      >
+        3
+      </div>
+      <div
+        className="cell bg-warning"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="presentation"
+      >
+        +
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="cell bg-light col-6"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="presentation"
+      >
+        0
+      </div>
+      <div
+        className="cell bg-light col-3"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="presentation"
+      >
+        .
+      </div>
+      <div
+        className="cell bg-warning col-3"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="presentation"
+      >
+        =
+      </div>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`renders Cell correctly 1`] = `
+<div
+  className="text-start"
+  onClick={[Function]}
+  onKeyDown={[Function]}
+  role="presentation"
+>
+  fake-text
+</div>
+`;
+
+exports[`renders Home correctly 1`] = `
+<section
+  className="text-start"
+>
+  <h2>
+    Welcome to our page!
+  </h2>
+  <p>
+    Mathematics is the science that deals with the logic of shape, quantity and arrangement.
+        Math is all around us, in everything we do.
+        It is the building block for everything in our daily lives, including mobile devices, computers, software, architecture (ancient and modern), art, money, engineering and even sports.
+  </p>
+  <p>
+    Since the beginning of recorded history, mathematical discovery has been at the forefront of every civilized society, and math has been used by even the most primitive and earliest cultures.
+        The need for math arose because of the increasingly complex demands from societies around the world, which required more advanced mathematical solutions,
+        as outlined by mathematician Raymond L. Wilder in his book "Evolution of Mathematical Concepts" (Dover Publications, 2013).
+  </p>
+</section>
+`;
+
+exports[`renders NavBar correctly 1`] = `
+<nav
+  className="d-flex justify-content-between align-items-center py-4 text-start w-100"
+>
+  <h1>
+    Math Magicians
+  </h1>
+  <ul
+    className="list-group list-group-horizontal"
+  >
+    <li
+      style={
+        Object {
+          "listStyle": "none",
+          "marginLeft": "1rem",
+        }
+      }
+    >
+      <NavLink />
+    </li>
+    <li
+      style={
+        Object {
+          "listStyle": "none",
+          "marginLeft": "1rem",
+        }
+      }
+    >
+      <NavLink />
+    </li>
+    <li
+      style={
+        Object {
+          "listStyle": "none",
+          "marginLeft": "1rem",
+        }
+      }
+    >
+      <NavLink />
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`renders Quote correctly 1`] = `
+<div
+  className="d-flex flex-column justify-content-center"
+  style={
+    Object {
+      "minHeight": "NaNpx",
+    }
+  }
+>
+  <blockquote>
+    <p>
+      All the records — anthropological and historical — show that counting and, ultimately, numeral systems as a device for counting form the inception of the mathematical element in all cultures,
+    </p>
+  </blockquote>
+  <figcaption>
+    -Raymond L. Wilder, 1968
+  </figcaption>
+</div>
+`;

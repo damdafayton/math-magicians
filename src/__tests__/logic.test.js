@@ -2,7 +2,7 @@ import operate from "../logic/operate";
 import calculate from "../logic/calculate";
 
 
-describe('tests for operating logic', () => {
+describe('tests for calculating logic', () => {
   let obj = {}
 
   beforeEach(() => {
@@ -42,7 +42,7 @@ describe('tests for operating logic', () => {
     })
   })
 
-  test('when "=" is pressed if there is no next(new) and operation value return empty object', () => {
+  test('when "=" is pressed if there is no next(new) and operation values return empty object', () => {
     obj = { total: '9' }
     expect(calculate(obj, '=')).toEqual({})
   })
@@ -56,7 +56,7 @@ describe('tests for operating logic', () => {
   })
 })
 
-describe('operate logic tests', () => {
+describe('test for operating logic', () => {
   test('2 + 3 should equal to 5', () => {
     expect(operate(2, 3, '+')).toBe('5')
   })
