@@ -4,9 +4,9 @@ export default function Quote() {
   const [availableHeight, setavailableHeight] = useState(0);
 
   useLayoutEffect(() => {
-    const navElement = document.querySelector('nav');
+    const navElement = document.querySelector('nav')
     const navHeight = navElement && navElement.scrollHeight;
-    const doc = document.scrollingElement;
+    const doc = document.scrollingElement
     const docHeight = doc && doc.clientHeight;
     const available = docHeight - navHeight;
     if (available !== availableHeight) setavailableHeight(available);
