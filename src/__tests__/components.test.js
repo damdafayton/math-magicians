@@ -1,22 +1,21 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import Calculator from "../components/Calculator";
-import Cell from "../components/Cell";
-import Home from "../components/Home";
-import Quote from "../components/Quote";
-import NavBar from "../components/NavBar";
+import Calculator from '../components/Calculator';
+import Cell from '../components/Cell';
+import Home from '../components/Home';
+import Quote from '../components/Quote';
+import NavBar from '../components/NavBar';
 
 jest.mock('react-router-dom', () => ({
   __esModule: true,
-  // Navlink: 'NavLink'
   NavLink: () => {
-    const NavLink = 'NavLink'
-    return <NavLink />
-  }
-}))
+    const NavLink = 'NavLink';
+    return <NavLink />;
+  },
+}));
 
-const fakeFunc = () => { }
+const fakeFunc = () => { };
 
 it('renders Calculator correctly', () => {
   const tree = renderer
@@ -27,7 +26,7 @@ it('renders Calculator correctly', () => {
 
 it('renders Cell correctly', () => {
   const tree = renderer
-    .create(<Cell myClass='text-start' children='fake-text' handleClick={fakeFunc} />)
+    .create(<Cell myClass="text-start" handleClick={fakeFunc}>fake-text</Cell>)
     .toJSON();
   expect(tree).toMatchSnapshot();
 });
@@ -52,4 +51,3 @@ it('renders NavBar correctly', () => {
     .toJSON();
   expect(tree).toMatchSnapshot();
 });
-
