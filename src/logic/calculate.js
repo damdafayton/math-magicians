@@ -105,7 +105,7 @@ export default function calculate(obj, buttonName) {
     if (obj.total && !obj.next) {
       return { ...obj, operation: buttonName };
     }
-    if (!obj.total) {
+    else if (!obj.total) {
       /* if there is no total but onyl next value over-write existing operation
        return 0 for total otherwise if its tried second time with = operator
        big.js will have to work on a null and integer value and return error */
