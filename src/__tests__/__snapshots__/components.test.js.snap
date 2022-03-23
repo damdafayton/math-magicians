@@ -15,221 +15,200 @@ exports[`renders Calculator correctly 1`] = `
     <div
       className="row text-white text-end"
     >
-      <span
-        className="py-3 bg-dark fs-3"
-        id="calculate-result"
+      <div
+        className="cell bg-dark fs-3"
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
       >
         0
-      </span>
+      </div>
     </div>
     <div
       className="row row-cols-4"
     >
-      <span
+      <div
         className="cell bg-light"
-        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
       >
         AC
-      </span>
-      <span
+      </div>
+      <div
         className="cell bg-light"
-        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
       >
         +/-
-      </span>
-      <span
+      </div>
+      <div
         className="cell bg-light"
-        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
       >
         %
-      </span>
-      <span
+      </div>
+      <div
         className="cell bg-warning"
-        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
       >
         ÷
-      </span>
+      </div>
     </div>
     <div
       className="row row-cols-4"
     >
-      <span
+      <div
         className="cell bg-light"
-        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
       >
         7
-      </span>
-      <span
+      </div>
+      <div
         className="cell bg-light"
-        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
       >
         8
-      </span>
-      <span
+      </div>
+      <div
         className="cell bg-light"
-        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
       >
         9
-      </span>
-      <span
+      </div>
+      <div
         className="cell bg-warning"
-        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
       >
         x
-      </span>
+      </div>
     </div>
     <div
       className="row row-cols-4"
     >
-      <span
+      <div
         className="cell bg-light"
-        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
       >
         4
-      </span>
-      <span
+      </div>
+      <div
         className="cell bg-light"
-        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
       >
         5
-      </span>
-      <span
+      </div>
+      <div
         className="cell bg-light"
-        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
       >
         6
-      </span>
-      <span
+      </div>
+      <div
         className="cell bg-warning"
-        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
       >
         -
-      </span>
+      </div>
     </div>
     <div
       className="row row-cols-4"
     >
-      <span
+      <div
         className="cell bg-light"
-        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
       >
         1
-      </span>
-      <span
+      </div>
+      <div
         className="cell bg-light"
-        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
       >
         2
-      </span>
-      <span
+      </div>
+      <div
         className="cell bg-light"
-        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
       >
         3
-      </span>
-      <span
+      </div>
+      <div
         className="cell bg-warning"
-        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
       >
         +
-      </span>
+      </div>
     </div>
     <div
       className="row"
     >
-      <span
+      <div
         className="cell bg-light col-6"
-        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
       >
         0
-      </span>
-      <span
+      </div>
+      <div
         className="cell bg-light col-3"
-        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
       >
         .
-      </span>
-      <span
+      </div>
+      <div
         className="cell bg-warning col-3"
-        id=""
         onClick={[Function]}
         onKeyDown={[Function]}
         role="presentation"
       >
         =
-      </span>
+      </div>
     </div>
   </section>
 </div>
 `;
 
 exports[`renders Cell correctly 1`] = `
-<span
+<div
   className="text-start"
-  id=""
   onClick={[Function]}
   onKeyDown={[Function]}
   role="presentation"
 >
   fake-text
-</span>
+</div>
 `;
 
 exports[`renders Home correctly 1`] = `
@@ -263,7 +242,6 @@ exports[`renders NavBar correctly 1`] = `
     className="list-group list-group-horizontal"
   >
     <li
-      aria-label="Home"
       style={
         Object {
           "listStyle": "none",
@@ -274,7 +252,6 @@ exports[`renders NavBar correctly 1`] = `
       <NavLink />
     </li>
     <li
-      aria-label="Calculator"
       style={
         Object {
           "listStyle": "none",
@@ -285,7 +262,6 @@ exports[`renders NavBar correctly 1`] = `
       <NavLink />
     </li>
     <li
-      aria-label="Quote"
       style={
         Object {
           "listStyle": "none",

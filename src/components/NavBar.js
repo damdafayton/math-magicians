@@ -28,7 +28,7 @@ export default function NavBar() {
       <h1>Math Magicians</h1>
       <ul className="list-group list-group-horizontal">
         {navLinks.map((link) => (
-          <li key={`navlink-${link.name}`} style={styles.navLink} aria-label={link.name}>
+          <li key={`navlink-${link.name}`} style={styles.navLink}>
             <NavLink className="link-dark" to={link.to}>
               {link.name}
             </NavLink>
