@@ -34,10 +34,8 @@ describe('App render all and test', () => {
     screen.debug();
 
     const cells = document.querySelectorAll('.cell');
-    console.log(cells[0].innerHTML);
     cells.forEach((cell) => userEvent.click(cell));
     const resultElement = document.querySelector('#calculate-result');
-    console.log(resultElement.innerHTML);
 
     expect(resultElement.innerHTML).toBe('0');
   });
