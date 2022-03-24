@@ -17,6 +17,7 @@
 
 - [Live Demo Link](https://damdafayton.github.io/math-magicians/build/)
 - [Heroku Deploy](https://damdafayton-calculator.herokuapp.com/)
+- [Netlify Deploy](https://damdafayton-calculator.netlify.app/)
 
 
 ## Available Scripts
