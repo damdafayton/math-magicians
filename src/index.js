@@ -5,9 +5,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const githubBasename = process.env.NODE_ENV === 'production'
-  ? null
-  : '/math-magicians/build/';
+const githubBasename = '/math-magicians/build/';
 
 ReactDOM.render(
   <React.StrictMode>
