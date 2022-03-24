@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "/math-magicians/build/",
+  "engines": {
+    "node": "14.17.3"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
