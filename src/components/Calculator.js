@@ -24,7 +24,7 @@ export default function Calculator() {
       </p>
       <section className="col-sm-8 px-4">
         <div className="row text-white text-end">
-          <Cell myClass="cell bg-dark fs-3">{total}</Cell>
+          <Cell id="calculate-result" myClass="cell bg-dark fs-3">{total.toString()}</Cell>
         </div>
         <div className="row row-cols-4">
           <Cell handleClick={(e) => handleClick(e)} myClass="cell bg-light">AC</Cell>
