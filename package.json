@@ -2,7 +2,7 @@
   "name": "math",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/math-magicians/build/",
+  "homepage": "",
   "engines": {
     "node": "14.17.3"
   },
