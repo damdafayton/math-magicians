@@ -105,8 +105,9 @@ export default function calculate(obj, buttonName) {
     if (obj.total && !obj.next) {
       return { ...obj, operation: buttonName };
     }
+    // New line of code starts
     if (!obj.total) {
-      /* if there is no total but onyl next value over-write existing operation
+      /* if there is no total value but only the next value exists over-write existing operation
        return 0 for total otherwise if its tried second time with = operator
        big.js will have to work on a null and integer value and return error */
       return {
@@ -114,6 +115,7 @@ export default function calculate(obj, buttonName) {
         operation: buttonName,
       };
     }
+    // New line of code ends
     return {
       total: operate(obj.total, obj.next, obj.operation),
       next: null,
@@ -127,17 +129,6 @@ export default function calculate(obj, buttonName) {
   if (!obj.next) {
     return { operation: buttonName };
   }
-  // New line of code starts
-  if (!obj.total) {
-    /* if there is no total value but only the next value exists over-write existing operation
-     return 0 for total otherwise if its tried second time with = operator
-     big.js will have to work on a null and integer value and return error */
-    return {
-      total: 0,
-      operation: buttonName,
-    };
-  }
-  // New line of code ends
   // save the operation and shift 'next' into 'total'
   return {
     total: obj.next,
