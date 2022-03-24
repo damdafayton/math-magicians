@@ -5,7 +5,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const githubBasename = process.env.REACT_APP_BASENAME || '/';
+const githubBasename = process.env.BASENAME || '/';
 
 ReactDOM.render(
   <React.StrictMode>
