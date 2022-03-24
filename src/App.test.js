@@ -18,7 +18,7 @@ describe('App render all and test', () => {
     expect(screen.getByLabelText('Calculator')).toBeInTheDocument();
     expect(screen.getByLabelText('Quote')).toBeInTheDocument();
     expect(screen.getByLabelText('Home')).toBeInTheDocument();
-    screen.debug();
+    // screen.debug();
   });
 
   test('Quote link and check the owner of the quote', () => {
