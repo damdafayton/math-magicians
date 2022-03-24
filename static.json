@@ -1,0 +1,6 @@
+{
+  "root": "math-magicians/build/",
+  "routes": {
+    "/**": "index.html"
+  }
+}
