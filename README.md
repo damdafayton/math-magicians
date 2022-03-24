@@ -26,12 +26,15 @@ In the project directory, you can run:
 
 ### Run the app in the development mode
 
+- Launch your terminal,
+- `cd` into the directory where you want to clone your project,
+- Enter the commands below
 ```
+$ git clone git@github.com:damdafayton/bookstore.git
 $ npm install
 $ npm start
 ````
-
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
