@@ -23,3 +23,4 @@ yarn-error.log*
 
 .env
 webpack.config.js
+webpack.config.js.lnk
